@@ -1,4 +1,4 @@
-# Installing Ruby
+# Installing Ruby on WSL2
 
 ## Install Ruby Environment Manager (RVM) on Ubuntu
 
