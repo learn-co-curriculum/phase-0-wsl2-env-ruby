@@ -16,7 +16,7 @@ Ruby Environment Manager (RVM) is a tool that will allow you to download and ins
 8. Type `echo ‘export PATH=$PATH:$HOME/.rvm/bin’ >> ~/.bashrc` and press `<Enter>`
 9. Close the "Ubuntu" application
 10. Open the "Ubuntu" application using the "Start" menu
-11. Type "rvm" and press `<Enter>`
+11. Type `rvm` and press `<Enter>`
 
 ### Check your work
 
