@@ -43,7 +43,11 @@ can quickly install Ruby with a couple of commands.
 
 ### Check Your Work
 
-If you see a message starting with "=\* ruby-2.6.1", continue below.
+If you see a message starting with "=\* ruby-2.6.1", continue below. 
+
+> **Note:** If you see that Ruby 2.6.1 is installed, but does not display
+> `=*` before it, close and reopen the "Ubuntu" application, then run
+> `rvm use 2.6.1 --default`.
 
 ## Install Ruby Gems on Ubuntu
 
@@ -69,5 +73,5 @@ a web application with Ruby.
 ### Check Your Work
 
 If you are able to complete each step without any issues and you see an output
-of a number around 100 from the last command, continue to the next lesson,
+of a number around or above 100 from the last command, continue to the next lesson,
 **Installing Node.js on WSL2**.
