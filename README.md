@@ -6,21 +6,21 @@ Ruby Environment Manager (RVM) is a tool that will allow you to download and ins
 
 ### Action item
 
-1. Open the “Ubuntu” application using the “Start” menu
-2. Type “sudo apt-get install software-properties-common” and press <Enter>
+1. Open the "Ubuntu" application using the "Start" menu
+2. Type `sudo apt-get install software-properties-common` and press `<Enter>`
 3. You may be asked to enter your Ubuntu terminal password
-4. Type “sudo -E apt-add-repository -y ppa:rael-gc/rvm” and press <Enter>
-5. Type “sudo apt-get update” and press <Enter>
-6. Type “sudo apt-get install rvm” and press <Enter> (Note: if you are asked “Do you want to continue [Y/n]”, type “Y” and press <Enter>)
-7. Type “source /etc/profile.d/rvm.sh” and press <Enter>
-8. Type “echo ‘export PATH=$PATH:$HOME/.rvm/bin’ >> ~/.bashrc” and press <Enter>
+4. Type `sudo -E apt-add-repository -y ppa:rael-gc/rvm` and press `<Enter>`
+5. Type `sudo apt-get update` and press `<Enter>`
+6. Type `sudo apt-get install rvm` and press `<Enter>` _(Note: if you are asked "Do you want to continue [Y/n]", type "Y" and press `<Enter>`)_
+7. Type `source /etc/profile.d/rvm.sh` and press `<Enter>`
+8. Type `echo ‘export PATH=$PATH:$HOME/.rvm/bin’ >> ~/.bashrc` and press `<Enter>`
 9. Close the "Ubuntu" application
 10. Open the "Ubuntu" application using the "Start" menu
-11. Type “rvm” and press <Enter>
+11. Type "rvm" and press `<Enter>`
 
 ### Check your work
 
-If you see a long message ending in “For additional documentation please visit https://rvm.io”, continue below.
+If you see a long message ending in "For additional documentation please visit https://rvm.io", continue below.
 
 ## Install Ruby version 2.6.1 on Ubuntu
 
@@ -28,14 +28,14 @@ For our Ruby labs and lessons, we expect that students use Ruby version 2.6.1 on
 
 ### Action item
 
-1. Open the “Ubuntu” application using the “Start” menu
-2. If the “Ubuntu” application is still open from the last step, close and re-open to prevent errors with running the next command.
-3. Type “rvm install 2.6.1” and press <Enter>
-4. Type “rvm list” and press <Enter>
+1. Open the "Ubuntu" application using the "Start" menu
+2. If the "Ubuntu" application is still open from the last step, close and re-open to prevent errors with running the next command.
+3. Type `rvm install 2.6.1` and press `<Enter>`
+4. Type `rvm list` and press `<Enter>`
 
 ### Check your work
 
-If you see a message starting with “=\* ruby-2.6.1”, continue below.
+If you see a message starting with "=\* ruby-2.6.1", continue below.
 
 ## Install Ruby Gems on Ubuntu
 
@@ -43,14 +43,14 @@ Ruby Gems are small programs written in Ruby that help you to code more easily i
 
 ### Action item
 
-1. Open the “Ubuntu” application using the “Start” menu
+1. Open the "Ubuntu" application using the "Start" menu
 2. Type `gem update --system` and press `<Enter>`
-3. Type “gem install bundler” and press <Enter>
-4. Type “gem install pry” and press <Enter>
-5. Type “gem install nokogiri” and press <Enter> (Note: this gem typically takes longer than the others to install)
-6. Type “gem install rails” and press <Enter>
-7. Type “gem install learn-co” and press <Enter>
-8. Type "gem list | wc -l" and press <Enter>
+3. Type `gem install bundler` and press `<Enter>`
+4. Type `gem install pry` and press `<Enter>`
+5. Type `gem install nokogiri` and press `<Enter>` (Note: this gem typically takes longer than the others to install)
+6. Type `gem install rails` and press `<Enter>`
+7. Type `gem install learn-co` and press `<Enter>`
+8. Type `gem list | wc -l` and press `<Enter>`
 
 ### Check your work
 
