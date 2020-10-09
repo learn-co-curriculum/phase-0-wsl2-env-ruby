@@ -4,8 +4,8 @@
 
 Ruby Environment Manager (RVM) is a tool that will allow you to download and
 install multiple versions of Ruby, one of the programming languages that we
-teach at Flatiron School. This is the first step in installing Ruby on your
-Ubuntu operating system.
+teach at Flatiron School. Installing RVM is the first step in installing Ruby on
+your Ubuntu operating system.
 
 ### Action Item
 
@@ -24,7 +24,7 @@ Ubuntu operating system.
 
 ### Check Your Work
 
-If you see a long message ending in "For additional documentation please visit
+If you see a long message ending in "For additional documentation, please visit
 https://rvm.io", continue below.
 
 ## Install Ruby Version 2.6.1 on Ubuntu
