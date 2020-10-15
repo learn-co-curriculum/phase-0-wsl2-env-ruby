@@ -24,6 +24,8 @@ your Ubuntu operating system.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GErkBvGIGu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If you see a long message ending in "For additional documentation, please visit
 https://rvm.io", continue below.
 
@@ -43,7 +45,7 @@ can quickly install Ruby with a couple of commands.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GErkBvGIGu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RVwo7RPviNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see a message starting with "=\* ruby-2.6.1", continue below. 
 
@@ -74,7 +76,7 @@ a web application with Ruby.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RVwo7RPviNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pRz92UepujE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you are able to complete each step without any issues and you see an output
 of a number around or above 100 from the last command, continue to the next lesson,
