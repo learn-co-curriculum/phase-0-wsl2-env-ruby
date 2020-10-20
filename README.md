@@ -17,7 +17,7 @@ your Ubuntu operating system.
 6. Type `sudo apt-get install rvm` and press `<Enter>` _(Note: if you are asked
    "Do you want to continue [Y/n]", type "Y" and press `<Enter>`)_
 7. Type `source /etc/profile.d/rvm.sh` and press `<Enter>`
-8. Type `echo ‘export PATH=$PATH:$HOME/.rvm/bin’ >> ~/.bashrc` and press `<Enter>`
+8. Type `curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/rvm-shell-script >> ~/.bashrc` and press `<Enter>`
 9. Close the "Ubuntu" application
 10. Open the "Ubuntu" application using the "Start" menu
 11. Type `rvm` and press `<Enter>`
@@ -27,7 +27,9 @@ your Ubuntu operating system.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GErkBvGIGu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see a long message ending in "For additional documentation, please visit
-https://rvm.io", continue below.
+https://rvm.io", continue below. If `rvm` is not found, check out the
+troubleshooting steps in the **Verify and Troubleshoot your WSL2 Environment
+Setup** later on in this module.
 
 ## Install Ruby Version 2.6.1 on Ubuntu
 
@@ -47,7 +49,7 @@ can quickly install Ruby with a couple of commands.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RVwo7RPviNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you see a message starting with "=\* ruby-2.6.1", continue below. 
+If you see a message starting with `=* ruby-2.6.1`, continue below.
 
 > **Note:** If you see that Ruby 2.6.1 is installed, but does not display
 > `=*` before it, close and reopen the "Ubuntu" application, then run
