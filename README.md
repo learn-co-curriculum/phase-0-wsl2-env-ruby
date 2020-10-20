@@ -29,7 +29,7 @@ your Ubuntu operating system.
 If you see a long message ending in "For additional documentation, please visit
 https://rvm.io", continue below. If `rvm` is not found, check out the
 troubleshooting steps in the **Verify and Troubleshoot your WSL2 Environment
-Setup** later on in this module.
+Setup** lesson later on in this module.
 
 ## Install Ruby Version 2.6.1 on Ubuntu
 
