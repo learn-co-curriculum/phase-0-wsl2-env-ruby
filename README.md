@@ -59,10 +59,8 @@ If you see a message starting with `=* ruby-2.6.1`, continue below.
 
 Ruby Gems are small programs written in Ruby that help you to code more easily
 in Ruby. The gems you will install today include: Bundler, which allows you to
-keep track of which gems your projects need to work; Pry, which allows you to
-pause your code when it runs and inspect it; Nokogiri, which allows you to read
-and pick apart HTML pages; and Ruby on Rails, which allows you to easily create
-a web application with Ruby.
+keep track of which gems your projects need to work, and Pry, which allows you to
+pause your Ruby code when it runs and inspect it.
 
 ### Action Item
 
@@ -70,16 +68,10 @@ a web application with Ruby.
 2. Type `gem update --system` and press `<Enter>`
 3. Type `gem install bundler` and press `<Enter>`
 4. Type `gem install pry` and press `<Enter>`
-5. Type `gem install nokogiri` and press `<Enter>` (Note: this gem typically
-   takes longer than the others to install)
-6. Type `gem install rails` and press `<Enter>`
-7. Type `gem install learn-co` and press `<Enter>`
 8. Type `gem list | wc -l` and press `<Enter>`
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pRz92UepujE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 If you are able to complete each step without any issues and you see an output
-of a number around or above 100 from the last command, continue to the next lesson,
-**Installing Databases on WSL2**.
+of a number around or above 40 from the last command, continue to the next lesson,
+**Configuring Git and GitHub on WSL2**.
