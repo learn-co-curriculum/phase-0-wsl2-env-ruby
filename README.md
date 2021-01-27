@@ -55,6 +55,8 @@ If you see a message starting with `=* ruby-2.6.1`, continue below.
 > `=*` before it, close and reopen the "Ubuntu" application, then run
 > `rvm use 2.6.1 --default`.
 
+
+
 > **Note:** If you encounter issues insttalling a version of Ruby via RVM, try following in Ubuntu: 
 > 
 > - Run `rvm group add rvm “$USER”`
