@@ -54,14 +54,16 @@ If you see a message starting with `=* ruby-2.6.1`, continue below.
 > **Note:** If you see that Ruby 2.6.1 is installed, but does not display
 > `=*` before it, close and reopen the "Ubuntu" application, then run
 > `rvm use 2.6.1 --default`.
-<br />
-> **Note:** If you encounter issues insttalling a version of Ruby via RVM, try following in Ubuntu: 
-> 
-> - Run `rvm group add rvm “$USER”`
-> - Close Ubuntu and reopen
-> - Run `rvm fix permissions`
-> 
-> After running the last command, try installing Ruby again with `rvm install 2.6.1`
+
+## Troubleshooting Ruby Installs
+
+If you encounter issues installing a version of Ruby via RVM, try following in Ubuntu: 
+
+- Run `rvm group add rvm “$USER”`
+- Close Ubuntu and reopen
+- Run `rvm fix permissions`
+ 
+After running the last command, try installing Ruby again with `rvm install 2.6.1`
 
 ## Install Ruby Gems on Ubuntu
 
