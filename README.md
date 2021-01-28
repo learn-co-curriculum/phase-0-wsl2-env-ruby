@@ -1,4 +1,4 @@
-# Windows WSL2 NodeJS Installation
+# Windows WSL2 Ruby Installation
 
 ## Install Ruby Environment Manager (RVM) on Ubuntu
 
