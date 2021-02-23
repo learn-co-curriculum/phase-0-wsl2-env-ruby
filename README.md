@@ -57,7 +57,7 @@ If you see a message starting with `=* ruby-2.6.1`, continue below.
 
 ## Troubleshooting Ruby Installs
 
-If you encounter issues installing a version of Ruby via RVM, try following in Ubuntu: 
+If you encounter issues installing a version of Ruby via RVM, try the following in Ubuntu: 
 
 - Run `rvm group add rvm “$USER”`
 - Close Ubuntu and reopen
