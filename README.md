@@ -43,7 +43,8 @@ can quickly install Ruby with a couple of commands.
 2. If the "Ubuntu" application is still open from the last step, close and
    re-open to prevent errors with running the next command.
 3. Type `rvm install 2.6.1` and press `<Enter>`
-4. Type `rvm list` and press `<Enter>`
+4. Enter your Ubuntu password if prompted
+5. Type `rvm list` and press `<Enter>`
 
 ### Check Your Work
 
@@ -61,7 +62,7 @@ If you encounter issues installing a version of Ruby via RVM, try the following 
 
 - Run `rvm group add rvm $USER`
 - Close Ubuntu and reopen
-- Run `rvm fix permissions`
+- Run `rvm fix-permissions`
  
 After running the last command, try installing Ruby again with `rvm install 2.6.1`
 
