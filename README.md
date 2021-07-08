@@ -31,9 +31,9 @@ https://rvm.io", continue below. If `rvm` is not found, check out the
 troubleshooting steps in the **Verify and Troubleshoot your WSL2 Environment
 Setup** lesson later on in this module.
 
-## Install Ruby Version 2.7.3 on Ubuntu
+## Install Ruby Version 2.7.4 on Ubuntu
 
-For our Ruby labs and lessons, we expect that students use Ruby version 2.7.3 on
+For our Ruby labs and lessons, we expect that students use Ruby version 2.7.4 on
 Ubuntu. If Ruby Environment Manager (RVM) has been successfully installed, you
 can quickly install Ruby with a couple of commands.
 
@@ -42,7 +42,7 @@ can quickly install Ruby with a couple of commands.
 1. Open the "Ubuntu" application using the "Start" menu
 2. If the "Ubuntu" application is still open from the last step, close and
    re-open to prevent errors with running the next command.
-3. Type `rvm install 2.7.3` and press `<Enter>`
+3. Type `rvm install 2.7.4 --default` and press `<Enter>`
 4. Enter your Ubuntu password if prompted
 5. Type `rvm list` and press `<Enter>`
 
@@ -50,11 +50,11 @@ can quickly install Ruby with a couple of commands.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RVwo7RPviNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you see a message starting with `=* ruby-2.7.3`, continue below.
+If you see a message starting with `=* ruby-2.7.4`, continue below.
 
-> **Note:** If you see that Ruby 2.7.3 is installed, but does not display
+> **Note:** If you see that Ruby 2.7.4 is installed, but does not display
 > `=*` before it, close and reopen the "Ubuntu" application, then run
-> `rvm use 2.7.3 --default`.
+> `rvm use 2.7.4 --default`.
 
 ## Troubleshooting Ruby Installs
 
@@ -64,7 +64,7 @@ If you encounter issues installing a version of Ruby via RVM, try the following 
 - Close Ubuntu and reopen
 - Run `rvm fix-permissions`
 
-After running the last command, try installing Ruby again with `rvm install 2.7.3`
+After running the last command, try installing Ruby again with `rvm install 2.7.4 --default`
 
 If you are continuing to have issues installing RVM, try running the following:
 
