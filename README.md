@@ -79,9 +79,11 @@ can quickly install Ruby with a couple of commands.
 1. Open the "Ubuntu" application using the "Start" menu
 2. If the "Ubuntu" application is still open from the last step, close and
    re-open to prevent errors with running the next command.
-3. Type: ```sh
+3. Type: 
+```sh
 rvm install 2.7.4 --default
-``` and press `<Enter>`
+``` 
+and press `<Enter>`
 4. Enter your Ubuntu password if prompted
 5. Type:
 ```sh
@@ -96,8 +98,10 @@ and press `<Enter>`
 If you see a message starting with `=* ruby-2.7.4`, continue below.
 
 > **Note:** If you see that Ruby 2.7.4 is installed, but does not display
-> `=*` before it, close and reopen the "Ubuntu" application, then run
-> `rvm use 2.7.4 --default`.
+> `=*` before it, close and reopen the "Ubuntu" application, then run:
+```sh 
+rvm use 2.7.4 --default
+```
 
 ## Troubleshooting Ruby Installs
 
