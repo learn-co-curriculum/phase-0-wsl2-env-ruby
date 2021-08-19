@@ -10,9 +10,11 @@ your Ubuntu operating system.
 ### Action Item
 
 1. Open the "Ubuntu" application using the "Start" menu
-2. Type ```sh 
+2. Type the following:
+```sh 
 sudo apt-get install software-properties-common
-``` and press `<Enter>`
+``` 
+and press `<Enter>`
 4. You may be asked to enter your Ubuntu terminal password
 5. Type ```sh sudo -E apt-add-repository -y ppa:rael-gc/rvm``` and press `<Enter>`
 6. Type ```sh sudo apt-get update``` and press `<Enter>`
