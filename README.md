@@ -10,54 +10,17 @@ your Ubuntu operating system.
 ### Action Item
 
 1. Open the "Ubuntu" application using the "Start" menu
-2. Type the following:
-```sh 
-sudo apt-get install software-properties-common
-``` 
-and press `<Enter>`
-
+2. Type `sudo apt-get install software-properties-common` and press `<Enter>`
 3. You may be asked to enter your Ubuntu terminal password
-
-4. Then type: 
-```sh 
-sudo -E apt-add-repository -y ppa:rael-gc/rvm
-``` 
-and press `<Enter>`
-
-5. Type: 
-```sh
-sudo apt-get update
-``` 
-and press `<Enter>`
-
-6. Type:
-```sh 
-sudo apt-get install rvm
-``` 
-and press `<Enter>` _(Note: if you are asked
+4. Type `sudo -E apt-add-repository -y ppa:rael-gc/rvm` and press `<Enter>`
+5. Type `sudo apt-get update` and press `<Enter>`
+6. Type `sudo apt-get install rvm` and press `<Enter>` _(Note: if you are asked
    "Do you want to continue [Y/n]", type "Y" and press `<Enter>`)_
-
-7. Type:
-```sh 
-source /etc/profile.d/rvm.sh
-```
-and press `<Enter>`
-
-8. Type 
-```sh
-curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/rvm-shell-script >> ~/.bashrc
-``` 
-and press `<Enter>`
-
+7. Type `source /etc/profile.d/rvm.sh` and press `<Enter>`
+8. Type `curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/rvm-shell-script >> ~/.bashrc` and press `<Enter>`
 9. Close the "Ubuntu" application
-
 10. Open the "Ubuntu" application using the "Start" menu
-
-11. Type: 
-```sh
-rvm
-```
-and press `<Enter>`
+11. Type `rvm` and press `<Enter>`
 
 ### Check Your Work
 
@@ -79,17 +42,9 @@ can quickly install Ruby with a couple of commands.
 1. Open the "Ubuntu" application using the "Start" menu
 2. If the "Ubuntu" application is still open from the last step, close and
    re-open to prevent errors with running the next command.
-3. Type: 
-```sh
-rvm install 2.7.4 --default
-``` 
-and press `<Enter>`
+3. Type `rvm install 2.7.4 --default` and press `<Enter>`
 4. Enter your Ubuntu password if prompted
-5. Type:
-```sh
-rvm list
-``` 
-and press `<Enter>`
+5. Type `rvm list` and press `<Enter>`
 
 ### Check Your Work
 
@@ -98,29 +53,18 @@ and press `<Enter>`
 If you see a message starting with `=* ruby-2.7.4`, continue below.
 
 > **Note:** If you see that Ruby 2.7.4 is installed, but does not display
-> `=*` before it, close and reopen the "Ubuntu" application, then run:
-```sh 
-rvm use 2.7.4 --default
-```
+> `=*` before it, close and reopen the "Ubuntu" application, then run
+> `rvm use 2.7.4 --default`.
 
 ## Troubleshooting Ruby Installs
 
 If you encounter issues installing a version of Ruby via RVM, try the following in Ubuntu:
 
-- Run: 
-```sh 
-rvm group add rvm $USER
-```
+- Run `rvm group add rvm $USER`
 - Close Ubuntu and reopen
-- Run: 
-```sh 
-rvm fix-permissions
-```
+- Run `rvm fix-permissions`
 
-After running the last command, try installing Ruby again with 
-```sh 
-rvm install 2.7.4 --default
-```
+After running the last command, try installing Ruby again with `rvm install 2.7.4 --default`
 
 If you are continuing to have issues installing RVM, try running the following:
 
@@ -140,26 +84,10 @@ pause your Ruby code when it runs and inspect it.
 ### Action Item
 
 1. Open the "Ubuntu" application using the "Start" menu
-2. Type: 
-```sh 
-gem update --system
-``` 
-and press `<Enter>`
-3. Type: 
-```sh 
-gem install bundler
-``` 
-and press `<Enter>`
-4. Type: 
-```sh 
-gem install pry
-``` 
-and press `<Enter>`
-5. Type: 
-```sh 
-gem list | wc -l
-``` 
-and press `<Enter>`
+2. Type `gem update --system` and press `<Enter>`
+3. Type `gem install bundler` and press `<Enter>`
+4. Type `gem install pry` and press `<Enter>`
+5. Type `gem list | wc -l` and press `<Enter>`
 
 ### Check Your Work
 
