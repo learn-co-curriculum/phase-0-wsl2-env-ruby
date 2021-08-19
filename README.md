@@ -15,35 +15,44 @@ your Ubuntu operating system.
 sudo apt-get install software-properties-common
 ``` 
 and press `<Enter>`
+
 3. You may be asked to enter your Ubuntu terminal password
+
 4. Then type: 
 ```sh 
 sudo -E apt-add-repository -y ppa:rael-gc/rvm
 ``` 
 and press `<Enter>`
+
 5. Type: 
 ```sh
 sudo apt-get update
 ``` 
 and press `<Enter>`
+
 6. Type:
 ```sh 
 sudo apt-get install rvm
 ``` 
 and press `<Enter>` _(Note: if you are asked
    "Do you want to continue [Y/n]", type "Y" and press `<Enter>`)_
+
 7. Type:
 ```sh 
 source /etc/profile.d/rvm.sh
 ```
 and press `<Enter>`
+
 8. Type 
 ```sh
 curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/rvm-shell-script >> ~/.bashrc
 ``` 
 and press `<Enter>`
+
 9. Close the "Ubuntu" application
+
 10. Open the "Ubuntu" application using the "Start" menu
+
 11. Type: 
 ```sh
 rvm
