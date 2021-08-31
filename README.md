@@ -69,7 +69,7 @@ After running the last command, try installing Ruby again with `rvm install 2.7.
 If you are continuing to have issues installing RVM, try running the following:
 
 ```console
-sudo usermod -a -G rvm $USER
+$ sudo usermod -a -G rvm $USER
 ```
 
 After running, try installing Ruby again.
