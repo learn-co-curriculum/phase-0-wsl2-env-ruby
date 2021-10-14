@@ -2,29 +2,31 @@
 
 ## Install Ruby Environment Manager (RVM) on Ubuntu
 
-Ruby Environment Manager (RVM) is a tool that will allow you to download and
-install multiple versions of Ruby, one of the programming languages that we
-teach at Flatiron School. Installing RVM is the first step in installing Ruby on
-your Ubuntu operating system.
+[Ruby Environment Manager (RVM)][rvm] is a tool that will allow you to download
+and install multiple versions of Ruby, one of the programming languages that we
+teach at Flatiron School. Installing [RVM for Ubuntu][rvm ubuntu] is the first
+step in installing Ruby on your Ubuntu operating system.
+
+[rvm]: http://rvm.io
+[rvm ubuntu]: https://github.com/rvm/ubuntu_rvm
 
 ### Action Item
 
 1. Open the "Ubuntu" application using the "Start" menu
 2. Type `sudo apt-get install software-properties-common` and press `<Enter>`
 3. You may be asked to enter your Ubuntu terminal password
-4. Type `sudo -E apt-add-repository -y ppa:rael-gc/rvm` and press `<Enter>`
+4. Type `sudo apt-add-repository -y ppa:rael-gc/rvm` and press `<Enter>`
 5. Type `sudo apt-get update` and press `<Enter>`
 6. Type `sudo apt-get install rvm` and press `<Enter>` _(Note: if you are asked
    "Do you want to continue [Y/n]", type "Y" and press `<Enter>`)_
-7. Type `source /etc/profile.d/rvm.sh` and press `<Enter>`
-8. Type `curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/rvm-shell-script >> ~/.bashrc` and press `<Enter>`
-9. Close the "Ubuntu" application
-10. Open the "Ubuntu" application using the "Start" menu
-11. Type `rvm` and press `<Enter>`
+7. Type `sudo usermod -a -G rvm $USER` and press `<Enter>`
+8. Close the "Ubuntu" application
+9. Open the "Ubuntu" application using the "Start" menu
+10. Type `rvm` and press `<Enter>`
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GErkBvGIGu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tRLexZJS144" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see a long message ending in "For additional documentation, please visit
 https://rvm.io", continue below. If `rvm` is not found, check out the
@@ -48,7 +50,7 @@ can quickly install Ruby with a couple of commands.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RVwo7RPviNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KYr66fx3nzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see a message starting with `=* ruby-2.7.4`, continue below.
 
@@ -58,13 +60,15 @@ If you see a message starting with `=* ruby-2.7.4`, continue below.
 
 ## Troubleshooting Ruby Installs
 
-If you encounter issues installing a version of Ruby via RVM, try the following in Ubuntu:
+If you encounter issues installing a version of Ruby via RVM, try the following
+in Ubuntu:
 
 - Run `rvm group add rvm $USER`
 - Close Ubuntu and reopen
 - Run `rvm fix-permissions`
 
-After running the last command, try installing Ruby again with `rvm install 2.7.4 --default`
+After running the last command, try installing Ruby again with
+`rvm install 2.7.4 --default`
 
 If you are continuing to have issues installing RVM, try running the following:
 
@@ -87,10 +91,12 @@ pause your Ruby code when it runs and inspect it.
 2. Type `gem update --system` and press `<Enter>`
 3. Type `gem install bundler` and press `<Enter>`
 4. Type `gem install pry` and press `<Enter>`
-5. Type `gem list | wc -l` and press `<Enter>`
+5. Type `gem list` and press `<Enter>`
 
 ### Check Your Work
 
-If you are able to complete each step without any issues and you see an output
-of a number around or above 40 from the last command, continue to the next lesson,
-**Configuring Git and GitHub on WSL2**.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QeLOsZzz5pk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you are able to complete each step without any issues and see `pry` and
+`bundler` listed in the output from running `gem list`, continue to the next
+lesson, **Configuring Git and GitHub on WSL2**.
