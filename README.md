@@ -33,9 +33,9 @@ Setup** lesson later on in this module.
 
 ## Install Ruby Version 2.7.4 on Ubuntu
 
-For our Ruby labs and lessons, we expect that students use Ruby version 2.7.4 on
-Ubuntu. If Ruby Environment Manager (RVM) has been successfully installed, you
-can quickly install Ruby with a couple of commands.
+For our Ruby labs and lessons, we recommend that students use Ruby version 2.7.4
+on Ubuntu. If Ruby Environment Manager (RVM) has been successfully installed,
+you can quickly install Ruby with a couple of commands.
 
 ### Action Item
 
