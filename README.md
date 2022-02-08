@@ -29,7 +29,7 @@ step in installing Ruby on your Ubuntu operating system.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tRLexZJS144" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see a long message ending in "For additional documentation, please visit
-https://rvm.io", continue below. If `rvm` is not found, check out the
+https://rvm.io", continue below. If `rvm` is not found, consult the
 troubleshooting steps in the **Verify and Troubleshoot your WSL2 Environment
 Setup** lesson later on in this module.
 
